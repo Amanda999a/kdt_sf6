@@ -28,13 +28,19 @@ print(sub) #6
 print(mul)
 print(div)
 
-#실습
-n1 = 30
-n2 = 4
+#실습 - 빵 30, 사람 - 4
+bread = 30
+people = 4
 
+몫 = bread // people
+나머지 = bread % people
 
-print('빵의 개수:', n1 // n2)
-print('남은 빵의 개수:', n1 % n2)
+print("빵의 개수:" + str(몫))
+print("남은 빵의 개수:" + str(나머지))
+
+#내 답지 print('빵의 개수:', n1 // n2)
+#내 답지 print('남은 빵의 개수:', n1 % n2)
+
 
 
 
