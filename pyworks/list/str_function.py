@@ -19,7 +19,17 @@ print(lower_case)
 print(upper_case, lower_case)
 
 friends = "존 루나 제리"
-print(friends.split(" ")) #구분문자 - 공백 문자
+a = friends.split(" ")
+print(a) #구분문자 - 공백 문자
+
+#입력 받아서 리스트 만들기
+input_num = input("숫자 입력:").split(" ")  #문자니까 스플릿 가능
+numbers = [] # 숫자를 저장할 리스트
+for i in input(input_num):
+    numbers.append(int(i))1
+print(numbers)
+
+print("=" * 20 )
 
 alpha = "a:b:c:d"
 print(alpha.split(":"))
