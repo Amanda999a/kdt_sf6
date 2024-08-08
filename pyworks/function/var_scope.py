@@ -24,4 +24,3 @@ order_price = get_price()
 print(f'{quantity}개에 {order_price}원 입니다.')
 # print(price) #선언되지 않는 값이다, 정의되지 않았다 인터프리터인데 알려주니까 컴파일 오류
 
-
