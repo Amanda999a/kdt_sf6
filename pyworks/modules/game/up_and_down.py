@@ -6,12 +6,12 @@ com = random.randint(1,100)
 # print(com)
 
 min_v = 1
-max_x = 100
+max_v = 100
 
 while True:
     try:
         # 서식 대응 문자 - %d, %f, %s
-        guess = int(input("숫자 입력(%d ~ %d) : " % (min_v, max_x)))
+        guess = int(input("숫자 입력(%d ~ %d) : " % (min_v, max_v)))
         if guess < 0 or guess > 100:
             print("입력범위를 초과했어요")
         elif com == guess:
